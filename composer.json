@@ -1,0 +1,20 @@
+{
+    "name": "imarun/library-managment-system",
+    "description": "library-managment-system",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "Imarun\\LibraryManagmentSystem\\": "inc/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arun Sharma",
+            "email": "dextorlobo@gmail.com"
+        }
+    ],
+    "require": {
+        "brick/phonenumber": "^0.6.0",
+        "egulias/email-validator": "^4.0"
+    }
+}
